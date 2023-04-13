@@ -11,9 +11,26 @@
 		B5CA72E529E55686005C87F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CA72E429E55686005C87F1 /* ContentView.swift */; };
 		B5CA72E729E55688005C87F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5CA72E629E55688005C87F1 /* Assets.xcassets */; };
 		B5CA72EA29E55688005C87F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5CA72E929E55688005C87F1 /* Preview Assets.xcassets */; };
-		B5CA72F429E55689005C87F1 /* WristTide_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CA72F329E55689005C87F1 /* WristTide_Watch_AppTests.swift */; };
 		B5CA72FE29E55689005C87F1 /* WristTide_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CA72FD29E55689005C87F1 /* WristTide_Watch_AppUITests.swift */; };
 		B5CA730029E55689005C87F1 /* WristTide_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CA72FF29E55689005C87F1 /* WristTide_Watch_AppUITestsLaunchTests.swift */; };
+		B5CA731029E5767C005C87F1 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CA730F29E5767C005C87F1 /* NetworkService.swift */; };
+		B5CA731329E58CE0005C87F1 /* NetworkServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CA731229E58CE0005C87F1 /* NetworkServiceError.swift */; };
+		B5CA733029E5EA26005C87F1 /* URLHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CA732F29E5EA26005C87F1 /* URLHelper.swift */; };
+		B5CA733229E6B314005C87F1 /* Stringify.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CA733129E6B314005C87F1 /* Stringify.swift */; };
+		B5CA733429E6B361005C87F1 /* HTTPScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CA733329E6B361005C87F1 /* HTTPScheme.swift */; };
+		B5CA733629E6B37B005C87F1 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CA733529E6B37B005C87F1 /* HTTPMethod.swift */; };
+		B5CA733B29E6B946005C87F1 /* Bundle+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CA733A29E6B946005C87F1 /* Bundle+Utils.swift */; };
+		B5CA733D29E6BA1F005C87F1 /* ViewModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CA733C29E6BA1F005C87F1 /* ViewModelFactory.swift */; };
+		B5CA733F29E6BAE4005C87F1 /* PreviewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CA733E29E6BAE4005C87F1 /* PreviewFactory.swift */; };
+		B5CA734129E6BC08005C87F1 /* ViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CA734029E6BC08005C87F1 /* ViewState.swift */; };
+		B5CA734329E7F65E005C87F1 /* UKTidalAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CA734229E7F65E005C87F1 /* UKTidalAPIService.swift */; };
+		B5CA734629E7F768005C87F1 /* GeoJSON in Frameworks */ = {isa = PBXBuildFile; productRef = B5CA734529E7F768005C87F1 /* GeoJSON */; };
+		B5CA734829E7FBC1005C87F1 /* WristTide_Watch_App_Admiralty_API_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CA734729E7FBC1005C87F1 /* WristTide_Watch_App_Admiralty_API_Tests.swift */; };
+		B5CA734B29E8035F005C87F1 /* TideStationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CA734A29E8035F005C87F1 /* TideStationListView.swift */; };
+		B5CA734D29E842B1005C87F1 /* TidalEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CA734C29E842B1005C87F1 /* TidalEvent.swift */; };
+		B5CA734F29E84517005C87F1 /* TideStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CA734E29E84517005C87F1 /* TideStation.swift */; };
+		B5CA735229E853F3005C87F1 /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = B5CA735129E853F3005C87F1 /* SwiftDate */; };
+		B5CA735429E854DC005C87F1 /* StationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CA735329E854DC005C87F1 /* StationDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +57,26 @@
 		B5CA72E629E55688005C87F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5CA72E929E55688005C87F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B5CA72EF29E55689005C87F1 /* WristTide Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WristTide Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5CA72F329E55689005C87F1 /* WristTide_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WristTide_Watch_AppTests.swift; sourceTree = "<group>"; };
 		B5CA72F929E55689005C87F1 /* WristTide Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WristTide Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5CA72FD29E55689005C87F1 /* WristTide_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WristTide_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		B5CA72FF29E55689005C87F1 /* WristTide_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WristTide_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B5CA730F29E5767C005C87F1 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		B5CA731229E58CE0005C87F1 /* NetworkServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceError.swift; sourceTree = "<group>"; };
+		B5CA732E29E5B89B005C87F1 /* WristTide-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "WristTide-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B5CA732F29E5EA26005C87F1 /* URLHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLHelper.swift; sourceTree = "<group>"; };
+		B5CA733129E6B314005C87F1 /* Stringify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stringify.swift; sourceTree = "<group>"; };
+		B5CA733329E6B361005C87F1 /* HTTPScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPScheme.swift; sourceTree = "<group>"; };
+		B5CA733529E6B37B005C87F1 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		B5CA733A29E6B946005C87F1 /* Bundle+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Utils.swift"; sourceTree = "<group>"; };
+		B5CA733C29E6BA1F005C87F1 /* ViewModelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelFactory.swift; sourceTree = "<group>"; };
+		B5CA733E29E6BAE4005C87F1 /* PreviewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewFactory.swift; sourceTree = "<group>"; };
+		B5CA734029E6BC08005C87F1 /* ViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewState.swift; sourceTree = "<group>"; };
+		B5CA734229E7F65E005C87F1 /* UKTidalAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UKTidalAPIService.swift; sourceTree = "<group>"; };
+		B5CA734729E7FBC1005C87F1 /* WristTide_Watch_App_Admiralty_API_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WristTide_Watch_App_Admiralty_API_Tests.swift; sourceTree = "<group>"; };
+		B5CA734A29E8035F005C87F1 /* TideStationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideStationListView.swift; sourceTree = "<group>"; };
+		B5CA734C29E842B1005C87F1 /* TidalEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TidalEvent.swift; sourceTree = "<group>"; };
+		B5CA734E29E84517005C87F1 /* TideStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TideStation.swift; sourceTree = "<group>"; };
+		B5CA735329E854DC005C87F1 /* StationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5CA735229E853F3005C87F1 /* SwiftDate in Frameworks */,
+				B5CA734629E7F768005C87F1 /* GeoJSON in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,10 +129,17 @@
 		B5CA72E129E55686005C87F1 /* WristTide Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				B5CA732E29E5B89B005C87F1 /* WristTide-Watch-App-Info.plist */,
+				B5CA732D29E58FD9005C87F1 /* Network Services */,
 				B5CA72E229E55686005C87F1 /* WristTideApp.swift */,
 				B5CA72E429E55686005C87F1 /* ContentView.swift */,
 				B5CA72E629E55688005C87F1 /* Assets.xcassets */,
 				B5CA72E829E55688005C87F1 /* Preview Content */,
+				B5CA734929E8034E005C87F1 /* Views */,
+				B5CA733A29E6B946005C87F1 /* Bundle+Utils.swift */,
+				B5CA733C29E6BA1F005C87F1 /* ViewModelFactory.swift */,
+				B5CA733E29E6BAE4005C87F1 /* PreviewFactory.swift */,
+				B5CA734029E6BC08005C87F1 /* ViewState.swift */,
 			);
 			path = "WristTide Watch App";
 			sourceTree = "<group>";
@@ -113,7 +155,7 @@
 		B5CA72F229E55689005C87F1 /* WristTide Watch AppTests */ = {
 			isa = PBXGroup;
 			children = (
-				B5CA72F329E55689005C87F1 /* WristTide_Watch_AppTests.swift */,
+				B5CA734729E7FBC1005C87F1 /* WristTide_Watch_App_Admiralty_API_Tests.swift */,
 			);
 			path = "WristTide Watch AppTests";
 			sourceTree = "<group>";
@@ -125,6 +167,63 @@
 				B5CA72FF29E55689005C87F1 /* WristTide_Watch_AppUITestsLaunchTests.swift */,
 			);
 			path = "WristTide Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		B5CA731129E58CCF005C87F1 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				B5CA731229E58CE0005C87F1 /* NetworkServiceError.swift */,
+				B5CA733329E6B361005C87F1 /* HTTPScheme.swift */,
+				B5CA733529E6B37B005C87F1 /* HTTPMethod.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		B5CA731429E58CE7005C87F1 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B5CA730F29E5767C005C87F1 /* NetworkService.swift */,
+				B5CA733129E6B314005C87F1 /* Stringify.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		B5CA731729E58FCD005C87F1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B5CA734C29E842B1005C87F1 /* TidalEvent.swift */,
+				B5CA734E29E84517005C87F1 /* TideStation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B5CA732D29E58FD9005C87F1 /* Network Services */ = {
+			isa = PBXGroup;
+			children = (
+				B5CA733729E6B3CC005C87F1 /* Services */,
+				B5CA731129E58CCF005C87F1 /* Enums */,
+				B5CA731429E58CE7005C87F1 /* Protocols */,
+				B5CA731729E58FCD005C87F1 /* Models */,
+				B5CA732F29E5EA26005C87F1 /* URLHelper.swift */,
+			);
+			path = "Network Services";
+			sourceTree = "<group>";
+		};
+		B5CA733729E6B3CC005C87F1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B5CA734229E7F65E005C87F1 /* UKTidalAPIService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B5CA734929E8034E005C87F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B5CA734A29E8035F005C87F1 /* TideStationListView.swift */,
+				B5CA735329E854DC005C87F1 /* StationDetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +242,10 @@
 			dependencies = (
 			);
 			name = "WristTide Watch App";
+			packageProductDependencies = (
+				B5CA734529E7F768005C87F1 /* GeoJSON */,
+				B5CA735129E853F3005C87F1 /* SwiftDate */,
+			);
 			productName = "WristTide Watch App";
 			productReference = B5CA72DF29E55686005C87F1 /* WristTide Watch App.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +318,10 @@
 				Base,
 			);
 			mainGroup = B5CA72D629E55685005C87F1;
+			packageReferences = (
+				B5CA734429E7F768005C87F1 /* XCRemoteSwiftPackageReference "GeoJSON" */,
+				B5CA735029E853F3005C87F1 /* XCRemoteSwiftPackageReference "SwiftDate" */,
+			);
 			productRefGroup = B5CA72E029E55686005C87F1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +364,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5CA733B29E6B946005C87F1 /* Bundle+Utils.swift in Sources */,
 				B5CA72E529E55686005C87F1 /* ContentView.swift in Sources */,
+				B5CA733F29E6BAE4005C87F1 /* PreviewFactory.swift in Sources */,
+				B5CA731329E58CE0005C87F1 /* NetworkServiceError.swift in Sources */,
+				B5CA734F29E84517005C87F1 /* TideStation.swift in Sources */,
+				B5CA731029E5767C005C87F1 /* NetworkService.swift in Sources */,
+				B5CA733D29E6BA1F005C87F1 /* ViewModelFactory.swift in Sources */,
+				B5CA733229E6B314005C87F1 /* Stringify.swift in Sources */,
+				B5CA735429E854DC005C87F1 /* StationDetailView.swift in Sources */,
+				B5CA734B29E8035F005C87F1 /* TideStationListView.swift in Sources */,
 				B5CA72E329E55686005C87F1 /* WristTideApp.swift in Sources */,
+				B5CA734D29E842B1005C87F1 /* TidalEvent.swift in Sources */,
+				B5CA733629E6B37B005C87F1 /* HTTPMethod.swift in Sources */,
+				B5CA733429E6B361005C87F1 /* HTTPScheme.swift in Sources */,
+				B5CA734329E7F65E005C87F1 /* UKTidalAPIService.swift in Sources */,
+				B5CA734129E6BC08005C87F1 /* ViewState.swift in Sources */,
+				B5CA733029E5EA26005C87F1 /* URLHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +388,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5CA72F429E55689005C87F1 /* WristTide_Watch_AppTests.swift in Sources */,
+				B5CA734829E7FBC1005C87F1 /* WristTide_Watch_App_Admiralty_API_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,27 +531,33 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WristTide Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = ARU7K8KJKJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = WristTide;
+				INFOPLIST_FILE = "WristTide-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Tidey;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = sometinylittle.space.Tidey.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
+				UK_TIDAL_API_BASE_URL = "admiraltyapi.azure-api.net";
 				WATCHOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Debug;
@@ -439,27 +567,33 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WristTide Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = ARU7K8KJKJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = WristTide;
+				INFOPLIST_FILE = "WristTide-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Tidey;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = sometinylittle.space.Tidey.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
+				UK_TIDAL_API_BASE_URL = "admiraltyapi.azure-api.net";
 				VALIDATE_PRODUCT = YES;
 				WATCHOS_DEPLOYMENT_TARGET = 9.1;
 			};
@@ -589,6 +723,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B5CA734429E7F768005C87F1 /* XCRemoteSwiftPackageReference "GeoJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kiliankoe/GeoJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.2;
+			};
+		};
+		B5CA735029E853F3005C87F1 /* XCRemoteSwiftPackageReference "SwiftDate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/malcommac/SwiftDate";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B5CA734529E7F768005C87F1 /* GeoJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5CA734429E7F768005C87F1 /* XCRemoteSwiftPackageReference "GeoJSON" */;
+			productName = GeoJSON;
+		};
+		B5CA735129E853F3005C87F1 /* SwiftDate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5CA735029E853F3005C87F1 /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			productName = SwiftDate;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B5CA72D729E55685005C87F1 /* Project object */;
 }
